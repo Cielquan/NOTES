@@ -132,6 +132,10 @@ Open source Management
 Synchronize your Visual Studio Code Settings Across Multiple Machines using GitHub GIST
 [shanalikhan/code-settings-sync](https://github.com/shanalikhan/code-settings-sync)
 
+## UniFi
+
+[Install on Linux](https://help.ui.com/hc/en-us/articles/220066768-UniFi-How-to-Install-and-Update-via-APT-on-Debian-or-Ubuntu)
+[Port Reference](https://help.ui.com/hc/en-us/articles/218506997-UniFi-Network-Required-Ports-Reference)
 
 ## React testing
 
