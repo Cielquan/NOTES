@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+cd_fail() {
+    cd_ec="$?"
+    echo "cd failed" && exit "${cd_ec}"
+}
+
+pushd "${SCRIPT_DIR}"/../ > /dev/null || cd_fail
+
+"$@"
+cmd_ec="$?"
+
+popd > /dev/null || cd_fail
+
+exit "${cmd_ec}"
